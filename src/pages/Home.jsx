@@ -135,7 +135,11 @@ const UltimateEventPlatform = () => {
       icon: <Activity className="w-8 h-8" />,
       title: "Your Tickets, Your Security",
       description: "Safeguard Your Tickets with Avalanche's Trusted Blockchain Technology",
+<<<<<<< HEAD
       color: "purple-600"
+=======
+      color: "from-purple-600 to-pink-600"
+>>>>>>> 2f328c3c58f4d8a1afab13de928c2183237f0ef8
     }
   ];
 
@@ -304,8 +308,13 @@ This request will not trigger a blockchain transaction or cost any gas fees.`;
       {showSignInPrompt && (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
           <div className="bg-gray-800/95 backdrop-blur-xl rounded-2xl border border-purple-500/30 max-w-md w-full mx-4 overflow-hidden">
+<<<<<<< HEAD
             <div className="relative bg-purple-600/20 p-6 text-center">
               <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+=======
+            <div className="relative bg-gradient-to-r from-purple-600/20 to-blue-600/20 p-6 text-center">
+              <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+>>>>>>> 2f328c3c58f4d8a1afab13de928c2183237f0ef8
                 <Power className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-2">Sign In Required</h3>
@@ -317,7 +326,11 @@ This request will not trigger a blockchain transaction or cost any gas fees.`;
                 <button
                   onClick={connectWallet}
                   disabled={isConnecting}
+<<<<<<< HEAD
                   className="w-full bg-purple-600 hover:bg-purple-500 text-white py-3 px-6 rounded-xl transition-colors duration-300 flex items-center justify-center space-x-2"
+=======
+                  className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white py-3 px-6 rounded-xl transition-colors duration-300 flex items-center justify-center space-x-2"
+>>>>>>> 2f328c3c58f4d8a1afab13de928c2183237f0ef8
                 >
                   <Power className="w-5 h-5" />
                   <span>{isConnecting ? 'Signing In...' : 'Sign In with Wallet'}</span>
@@ -363,8 +376,13 @@ This request will not trigger a blockchain transaction or cost any gas fees.`;
                 onClick={() => handleProtectedNavigation('/ticketsell')}
                 className="group relative px-8 py-4 rounded-xl overflow-hidden"
               >
+<<<<<<< HEAD
                 <div className="absolute inset-0 bg-purple-600" />
                 <div className="absolute inset-0 bg-purple-600 blur-xl
+=======
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600" />
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 blur-xl 
+>>>>>>> 2f328c3c58f4d8a1afab13de928c2183237f0ef8
                   group-hover:blur-2xl transition-all duration-300" />
                 <div className="relative z-10 flex items-center space-x-2">
                   <span>Explore Events</span>
@@ -377,7 +395,11 @@ This request will not trigger a blockchain transaction or cost any gas fees.`;
                 className="group relative px-8 py-4 rounded-xl overflow-hidden"
               >
                 <div className="absolute inset-0 border border-purple-500 rounded-xl" />
+<<<<<<< HEAD
                 <div className="absolute inset-0 bg-purple-500/10
+=======
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-blue-500/10 
+>>>>>>> 2f328c3c58f4d8a1afab13de928c2183237f0ef8
                   transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
                 <span className="relative z-10">Tickets Collection</span>
               </button>

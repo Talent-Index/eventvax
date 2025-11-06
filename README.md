@@ -1,6 +1,6 @@
 # 🎟️ Eventverse.
 
-## 🌍 Overview
+## 🌍 Overview.
 
 Eventverse is a revolutionary blockchain-based ticketing platform engineered to combat fraud and inefficiencies in the event ticketing industry. Leveraging the Avalanche blockchain, our platform empowers event organizers to issue tickets as digital tokens, ensuring secure purchases, effortless resales, and QR-code-based authentication.
 
@@ -119,11 +119,19 @@ Eventverse is a revolutionary blockchain-based ticketing platform engineered to 
 
 ## 👥 The Team
 
+<<<<<<< HEAD
 | Name                | Role                 | Contact                                      |
 | ------------------- | -------------------- | -------------------------------------------- |
 | Williams Ochieng    | Smart Contract Dev   | [williams@example.com](mailto:williams@example.com) |
 | Joseph Okumu Otieno | Full-stack Engineer  | [jokumu25@gmail.com](mailto:jokumu25@gmail.com) |
 | John Mokaya         | Frontend Developer   | [mokayaj857@gmail.com](mailto:mokayaj857@gmail.com) |
+=======
+| Name                 | Role               | Contact                                                          |
+| -------------------- | ------------------ | ---------------------------------------------------------------- |
+| Williams Ochieng     | Smart Contract Dev | [ochiwilliamotieno@gmail.com](mailto\:ochiwilliamotieno@gmail.com)             |
+| Joseph Okumu Otieno  | Full-stack Engineer| [jokumu25@gmail.com](mailto\:jokumu25@gmail.com)       |
+| John Mokaya          | Frontend Developer | [mokayaj857@gmail.com](mailto\:mokayaj857@gmail.com)         |
+>>>>>>> 2f328c3c58f4d8a1afab13de928c2183237f0ef8
 
 
 ### 🌐 Waitlist Landing Page Integration
@@ -188,7 +196,11 @@ Eventverse is a revolutionary blockchain-based ticketing platform engineered to 
 - Our smart contracts are deployed on Avalanche's C-Chain to facilitate secure ticket operations.
 - Robust deployment pipeline via Hardhat ensures reliability.
 
+<<<<<<< HEAD
 ## 🔮 Vision.
+=======
+## 🔮 Our Vision
+>>>>>>> 2f328c3c58f4d8a1afab13de928c2183237f0ef8
 
 Eventverse is redefining event ticketing by combining blockchain security with intuitive user experiences. Stay tuned for exciting updates and new features as we shape the future of event access!
 
